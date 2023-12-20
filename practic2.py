@@ -94,7 +94,7 @@ def print_info(value, matrix):
     Returns:
         Строка с соответствующей информацией
     Examples:
-        >>>input_info(10, [[1,2,3], [34,56,90,99]])
+        >>>print_info(10, [[1,2,3], [34,56,90,99]])
         Самое близкое число к вашему: 2
         Индекс: (0, 1)
         Разница чисел равна: 8
@@ -134,6 +134,6 @@ while True:
         for k, v in d.items():
             print(f"{k}: {v}")
         number = int(input("Введите число, которое хотите найти в матрице "))
-        print(input_info(number, m_transport))
+        print(print(number, m_transport))
     except (ValueError, AssertionError, IndexError):
         print("Вы ввели некорректное значение")
