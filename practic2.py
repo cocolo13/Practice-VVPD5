@@ -83,7 +83,7 @@ def search_max_near_number(key, array):
     return result
 
 
-def input_info(value, matrix):
+def print_info(value, matrix):
     """Функция для вывода информации пользователю.
     Выводит ближайшее по модулю число к заданному,
     индекс ближайшего по модулю числа в массиве,
